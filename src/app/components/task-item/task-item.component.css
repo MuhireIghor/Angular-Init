@@ -1,0 +1,14 @@
+.container{
+    background-color: rgb(216, 215, 215);
+    border-radius: 5px;
+    padding: 9px;
+    margin-bottom: 10px;
+}
+.container>h3{
+    margin-left: 10px;
+}
+.container>p{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: large;
+}
