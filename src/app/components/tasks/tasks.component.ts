@@ -21,8 +21,7 @@ this.taskService.deleteTask(task).subscribe(()=>{this.tasks=this.tasks.filter((t
    }
    toggleReminder(task:Task){
 task.reminder = !task.reminder;
-console.log(task.reminder);
-
+this.taskService.updateTask(task).subscribe();
    }
 
   }

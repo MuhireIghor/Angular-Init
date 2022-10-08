@@ -2,19 +2,19 @@
   "tasks": [
     {
       "id": 2,
-      " texts": "Car repairs",
+      " description": "Car repairs",
       "day": "May 5th at 2:35pm",
       "reminder": true
     },
     {
       "id": 3,
-      " texts": "Car repairs",
+      " description": "Car repairs",
       "day": "May 5th at 2:30pm",
       "reminder": true
     },
     {
       "id": 4,
-      " texts": "Car repairs",
+      " description": "Car repairs",
       "day": "May 5th at 2:30pm",
       "reminder": true
     }
