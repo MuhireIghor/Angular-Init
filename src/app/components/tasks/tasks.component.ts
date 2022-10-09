@@ -25,5 +25,8 @@ this.taskService.updateTask(task).subscribe();
    }
 
   }
+  handleTaskAdder(task:Task){
+   this.taskService.
+  }
   
 

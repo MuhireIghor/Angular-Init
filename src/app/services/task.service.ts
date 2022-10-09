@@ -31,6 +31,9 @@ updateTask(task:Task):Observable<Task>{
 
   
 }
+createTask(task:Task):Observable<Task>{
+  return this.http.post<Task>(this.apiUrl,task,httpOptions);
+}
 
 
 
