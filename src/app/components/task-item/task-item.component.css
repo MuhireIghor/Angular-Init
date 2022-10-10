@@ -13,7 +13,13 @@
     margin-left: 10px;
     font-weight: 400;
     font-size: large;
+    padding: 10px;
 }
 .reminder{
     border-left:5px solid green;
+    }
+    .container>h3{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
     }
