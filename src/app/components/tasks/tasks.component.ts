@@ -24,9 +24,9 @@ task.reminder = !task.reminder;
 this.taskService.updateTask(task).subscribe();
    }
 
-  }
-  handleTaskAdder(task:Task){
-   this.taskService.
+   handleTaskAdder(task:Task){
+    this.taskService.createTask(task).subscribe((task)=>{this.tasks.push(task)})
+   }
   }
   
 
